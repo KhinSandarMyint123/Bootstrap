@@ -1,0 +1,49 @@
+.logo_img{
+	width: 250px;
+	height: 90px;
+}
+@font-face{
+	font-family: lobster;
+	src:url(../../Lobster/Lobster-Regular.ttf);
+}
+
+.logo_text{
+
+	margin-right: 40px;
+	font-family: lobster;
+	
+}
+.carousel_text{
+	position: absolute;
+	top: 180px;
+	left: 150px;
+}
+.img-fluid{
+	width: 270px;
+	height: 250px;
+}
+.background_img{
+	background-color:bisque;
+	height: 350px;
+	background-attachment: fixed;
+}
+hr.divided{
+	max-width: 7rem;
+	border-color:cyan;
+}
+.back{
+	position: absolute;
+	top: 70px;
+	left: 70px;
+}
+
+ div#aa{
+ 	
+ 	
+ 	position: fixed;
+ 	
+
+ }
+ .top{
+ 	margin-top: 150px;
+ }

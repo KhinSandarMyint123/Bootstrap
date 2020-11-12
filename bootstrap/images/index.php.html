@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://localhost/PHP_Jason/index.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./index.php_files/bootstrap.min.css">
+</head>
+<body>
+
+	
+	<h1 align="center">Add New Student</h1>
+	
+	<div class="container">
+		<form action="http://localhost/PHP_Jason/addstudent.php" method="POST" enctype="multipart/form-data">
+		<div class="row">
+			<div class="col-2">
+				<label>Profile</label>
+			</div>
+			<div class="col-10">
+				<input type="file" id="profile" name="profile">
+			</div>
+			<div class="col-2 my-3">
+				<label>Name</label>
+			</div>
+			<div class="col-10 my-3">
+				<div class="shadow">
+						<div class="form border">
+							<div class="form-group">
+								
+								<input type="text" name="name" class="form-control" style="border: none" placeholder="Enter Name">
+								
+							</div>
+							
+						</div>
+						
+				</div>
+			</div>
+			<div class="col-2 my-3">
+				<label>Email</label>
+		        
+			</div>
+			<div class="col-10 my-3">
+				<div class="shadow">
+						<div class="form border">
+							<div class="form-group">
+								<input type="text" name="email" class="form-control" style="border:black" placeholder="Enter Email">
+								
+							</div>
+							
+						</div>
+						
+					</div>
+			</div>
+			<div class="col-2 my-3">
+				<label>Gender</label>
+		        
+			</div>
+			<div class="col-10 my-3">
+				<input type="radio" value="male" name="gender">Male<br>
+				<input type="radio" value="female" name="gender">Female
+			</div>
+			<div class="col-2 my-3">
+				<label>Address</label>
+		        
+			</div>
+			<div class="col-10 my-3">
+				<div class="shadow">
+						<div class="form border">
+							<div class="form-group">
+								<textarea name="address" class="form-control" style="border:none;  "></textarea>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+			</div>
+
+			
+		</div>
+		
+
+	</form></div>
+<button class="btn btn-info">Save</button>
+
+<table border="1" cellpadding="10" cellspacing="10" style="width: 1300px">
+ 		<thead>
+ 			<tr>
+ 				<th>#</th>
+ 				<th>Name</th>
+ 				<th>Gender</th>
+ 				<th>Email</th>
+ 				<th>Action</th>
+ 				
+ 			</tr>
+ 			
+ 		</thead>
+ 		<tbody><tr>
+						<td>1</td>
+						<td>Khin Sandar</td>
+						<td>female</td>
+						<td>khin2065@gmail.com</td>
+						<td>
+							<button class="btn btn-primary btn-sm detail" data-id="0" data-name="Khin Sandar" data-email="khin2065@gmail.com" data-gender="female" data-address="Pathein" data-profile="photo/">Detail</button> 
+							<button class="btn btn-warning btn-sm edit">Edit</button> 
+							<button class="btn btn-danger btn-sm delete" data-id="0">Delete</button>
+						</td>
+					</tr><tr>
+						<td>2</td>
+						<td>Khin Sandar</td>
+						<td>female</td>
+						<td>khin2065@gmail.com</td>
+						<td>
+							<button class="btn btn-primary btn-sm detail" data-id="1" data-name="Khin Sandar" data-email="khin2065@gmail.com" data-gender="female" data-address="gehhy" data-profile="photo/f1.jpg">Detail</button> 
+							<button class="btn btn-warning btn-sm edit">Edit</button> 
+							<button class="btn btn-danger btn-sm delete" data-id="1">Delete</button>
+						</td>
+					</tr><tr>
+						<td>3</td>
+						<td>Khin Sandar</td>
+						<td>female</td>
+						<td>hla34@gmail.com</td>
+						<td>
+							<button class="btn btn-primary btn-sm detail" data-id="2" data-name="Khin Sandar" data-email="hla34@gmail.com" data-gender="female" data-address="Pathein" data-profile="photo/food8.jpg">Detail</button> 
+							<button class="btn btn-warning btn-sm edit">Edit</button> 
+							<button class="btn btn-danger btn-sm delete" data-id="2">Delete</button>
+						</td>
+					</tr><tr>
+						<td>4</td>
+						<td>null</td>
+						<td>null</td>
+						<td>null</td>
+						<td>
+							<button class="btn btn-primary btn-sm detail" data-id="3" data-name="null" data-email="null" data-gender="null" data-address="null" data-profile="photo/">Detail</button> 
+							<button class="btn btn-warning btn-sm edit">Edit</button> 
+							<button class="btn btn-danger btn-sm delete" data-id="3">Delete</button>
+						</td>
+					</tr><tr>
+						<td>5</td>
+						<td>Su Su</td>
+						<td>female</td>
+						<td>susu@gmail.com</td>
+						<td>
+							<button class="btn btn-primary btn-sm detail" data-id="4" data-name="Su Su" data-email="susu@gmail.com" data-gender="female" data-address="Pathein" data-profile="photo/f3.jpg">Detail</button> 
+							<button class="btn btn-warning btn-sm edit">Edit</button> 
+							<button class="btn btn-danger btn-sm delete" data-id="4">Delete</button>
+						</td>
+					</tr><tr>
+						<td>6</td>
+						<td></td>
+						<td>null</td>
+						<td></td>
+						<td>
+							<button class="btn btn-primary btn-sm detail" data-id="5" data-name="" data-email="" data-gender="null" data-address="" data-profile="photo/">Detail</button> 
+							<button class="btn btn-warning btn-sm edit">Edit</button> 
+							<button class="btn btn-danger btn-sm delete" data-id="5">Delete</button>
+						</td>
+					</tr></tbody>
+ 		
+
+ 	</table>
+
+
+
+
+<script type="text/javascript" src="./index.php_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./index.php_files/bootstrap.bundle.min.js.download"></script>
+<script>
+$(document).ready(function(){
+	showData();
+	function showData(){
+		$.get("student.json",function(data){
+			if (data) {
+				console.log(typeof(data)); 
+				//var stu_arr=JSON.parse(data);//optional
+				//console.log(typeof(stu_arr));
+				var html='';
+				var j=1;
+				$.each(data,function(i,v){
+					
+					html+=`<tr>
+						<td>${j++}</td>
+						<td>${v.name}</td>
+						<td>${v.gender}</td>
+						<td>${v.email}</td>
+						<td>
+							<button class="btn btn-primary btn-sm detail" data-id="${i}" data-name="${v.name}" data-email="${v.email}" data-gender="${v.gender}" data-address="${v.address}" data-profile="${v.profile}">Detail</button> 
+							<button class="btn btn-warning btn-sm edit">Edit</button> 
+							<button class="btn btn-danger btn-sm delete" data-id="${i}">Delete</button>
+						</td>
+					</tr>`
+				});
+				$('tbody').html(html);
+			}
+		})
+	}
+	$("tbody").on('click','.detail',function(){
+		var id=$(this).data('id');
+		var name=$(this).data('name');
+		var email=$(this).data('email');
+		var address=$(this).data('address');
+		var gender=$(this).data('gender');
+		var profile=$(this).data('profile');
+		
+		// console.log(id+name+email+address+gender+profile);
+		$("#stu_name").html("<strong>Name: </strong>"+name);
+		$("#stu_email").html("<strong>Email: </strong>"+email);
+		$("#stu_gender").html("<strong>Gender: </strong>"+gender);
+		$("#stu_address").html("<strong>Address: </strong>"+address);
+		$(".stu_img").attr("src",profile);
+		$("#detailModal").modal('show');
+		
+	})	
+	$('tbody').on('click','.delete',function(){
+		var id=$(this).data('id');
+		var ans=confirm("Are You Sure Delete");
+		if (ans) {
+			$.post("deletestudent.php",{stu_id:id},function(data){
+				showData();
+			})
+		}
+	})
+})
+	
+</script>
+<!-- Modal -->
+<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Student Detail</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-5">
+        			<img src="http://localhost/PHP_Jason/index.php" class="img-fluid stu_img">
+        		</div>
+        		<div class="col-md-7">
+        			<p id="stu_name"></p>
+        			<p id="stu_email"></p>
+        			<p id="stu_gender"></p>
+        			<p id="stu_address"></p>
+        		</div>
+        	</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body></html>
